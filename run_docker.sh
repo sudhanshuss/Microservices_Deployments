@@ -9,4 +9,4 @@ sudo docker build --tag=sudhanshuss/ud-project .
 docker image ls
 
 # Step 3: 
-sudo docker run -p 8000:80 ud-project
+sudo docker run --rm -d --name ud-project -p 8000:80 ud-project
