@@ -10,8 +10,8 @@ dockerpath="sudhanshuss/ud-project"
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
-sudo docker login &&\
+docker login &&\
     docker image tag ud-project $dockerpath
 
 # Step 3:
-sudo docker image push $dockerpath
+docker image push $dockerpath

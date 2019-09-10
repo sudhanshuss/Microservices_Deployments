@@ -18,4 +18,4 @@ sudo kubectl get pods
 
 # Step 4:
 # Forward the container port to a host
-sudo kubectl port-forward ud-project 8000:80
+sudo kubectl port-forward ud-project 8080:80
