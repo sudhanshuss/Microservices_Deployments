@@ -7,10 +7,10 @@
 dockerpath=sudhanshuss/ud-project
 
 # Step 2
-sudo kubectl run ud-project\
+sudo kubectl run ud-projectdemo\
     --generator=run-pod/v1\
     --image=$dockerpath\
-    --port=80 --labels app=ud-project
+    --port=80 --labels app=ud-projectdemo
 
 
 # Step 3:
@@ -18,4 +18,5 @@ sudo kubectl get pods
 
 # Step 4:
 # Forward the container port to a host
-sudo kubectl port-forward ud-project 8080:80
+sudo kubectl port-forward ud-projectdemo 8000:80
+
