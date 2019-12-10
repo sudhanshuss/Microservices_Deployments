@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/sudhanshuss/Microservices_Deployments/tree/master.svg?style=svg)](https://circleci.com/gh/sudhanshuss/Microservices_Deployments/tree/master)
+
 
 ## Microservices_Deployments
 This project contains information operationalize a Python flask app—in a provided file, `app.py`—that serves out predictions (inference) about housing prices through API calls. This project could be extended to any pre-trained machine learning model, such as those for image recognition and data labeling.
